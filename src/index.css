@@ -1,3 +1,20 @@
+html {
+  --quizzical: #6877ce;
+  --snake: linear-gradient(45deg, rgb(235, 241, 140), rgb(133, 187, 231),rgb(255, 189, 136));
+  --portfolio: #84EEA2;
+  --abzijgen: #ecba23;
+  --speed-typing: #E53935;
+  --tenzies: #FDD835;
+  --height: 400px;
+  --width: 670px;
+  --box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +22,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  background: var(--abzijgen);
+  height: var(--height);
+  width: var(--width);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.App img {
+  width: 50%;
+  border-radius: 7px;
+  box-shadow: var(--box-shadow);
+}
+
+img:nth-child(2) {
+  width: 20%;
+}
+
