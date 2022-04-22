@@ -5,6 +5,7 @@ html {
   --abzijgen: #ecba23;
   --speed-typing: #E53935;
   --tenzies: #FDD835;
+  --user-dash: #80cbc4;
   --height: 400px;
   --width: 670px;
   --box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -34,7 +35,7 @@ code {
 }
 
 .App {
-  background: var(--abzijgen);
+  background: var(--user-dash);
   height: var(--height);
   width: var(--width);
   display: flex;

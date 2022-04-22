@@ -8,11 +8,14 @@ import portfolioDesktop from "./imgs/portfolio-desktop.png"
 import portfolioMobile from "./imgs/portfolio-mobile.png"
 import abzijgenDesktop from './imgs/abzijgen-desktop.png'
 import abzijgenMobile from './imgs/abzijgen-mobile.png'
+import userDashDesktop from './imgs/user-dash-desktop.png'
+import userDashMobile from './imgs/user-dash-mobile.png'
 
 
 const quizzicalImgs = [quizzicalHome, quizzicalGameplay]
 const snakeImgs = [snakeDesktop, snakeMobile]
 const abzijgenImgs = [abzijgenDesktop, abzijgenMobile]
+const userDashImgs = [userDashDesktop, userDashMobile]
 
 function App() {
 
@@ -20,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      {displayImgs(abzijgenImgs)}
+      {displayImgs(userDashImgs)}
     </div>
   );
 }
